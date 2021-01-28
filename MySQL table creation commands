@@ -1,0 +1,30 @@
+For Users Table:
+
+CREATE TABLE Users ( 
+  user_ID INT AUTO_INCREMENT PRIMARY KEY,  
+  username VARCHAR(128) NOT NULL, 
+  password VARCHAR(128) NOT NULL, 
+  admin_priveliges BIT(1) NOT NULL, 
+  email VARCHAR(128),
+  phone VARCHAR(128),
+  upload_permission BIT(1) NOT NULL
+);
+
+
+
+For Trips Table:
+
+CREATE TABLE Users ( 
+  user_ID INT AUTO_INCREMENT PRIMARY KEY,  
+  username VARCHAR(128) NOT NULL, 
+  password VARCHAR(128) NOT NULL, 
+  admin_priveliges BIT(1) NOT NULL, 
+  email VARCHAR(128),
+  phone VARCHAR(128),
+  upload_permission BIT(1) NOT NULL
+);
+
+
+
+Template for a trip table:
+
