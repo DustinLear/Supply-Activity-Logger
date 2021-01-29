@@ -28,9 +28,9 @@ CREATE TABLE Trips (
 ---------------------------------------------------
 
 Template for a trip table: Note that a new table will be created for each trip in the Trips table.  
-The name of each new table will be the cooresponding trip_ID from the Trips table.
+The name of each new table will be in the format Trip_<trip_ID>, where <trip_ID> is replaced by the cooresponding trip_ID from the Trips table.
 
-CREATE TABLE <trip_ID> ( 
+CREATE TABLE Trip_<trip_ID> ( 
 	data_ID INT AUTO_INCREMENT PRIMARY KEY,  
 	timestamp TIMESTAMP NOT NULL, 
 	GPS_location VARCHAR(256), 
