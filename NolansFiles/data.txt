@@ -1,0 +1,4 @@
+row1Col1,row1Col2,row1Col3,row1Col4,row1Col5,row1Col6,row1Col7,row1Col8
+row2Col1,row2Col2,row2Col3,row2Col4,row2Col5,row2Col6,row2Col8,row2Col8
+2021-01-28 23:59,location data placeholder, 0.11, 16.83, 31,0.993, orientation placeholder
+
